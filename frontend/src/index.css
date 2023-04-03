@@ -1,0 +1,761 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Solway:wght@700&display=swap');
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: linear-gradient(to bottom, #f0f0f0, #e0e0e0);
+}
+
+::-webkit-scrollbar-thumb {
+    background: #999;
+    border-radius: 10px;
+}
+
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    overflow-x: hidden;
+    background-color: #FEFEFF;
+}
+
+.searchField{
+
+    display: inline;
+}
+
+.register{
+    background-color: #002550;
+    width: 150px;
+    height: 44px;
+    position: absolute;
+    top: 36px;
+    right: 30px;
+    border-radius: 5px;
+}
+
+header{
+    height: 88px;
+    box-shadow: 2px 1px 5px 0px grey;
+}
+
+.headings{
+    display: flex;
+    width: 41vw;
+    margin: auto;
+}
+
+.headings_item{
+    margin: 45px 20px;
+    padding-bottom: 20px;
+}
+
+.icon{
+    width: 128px;
+    height: 90px;
+    position: relative;
+    bottom: 90px;
+    left: 21px;
+}
+
+#one{
+    width: 1300px;
+    height: 450px;
+    margin-top: 52px;
+    background-image: url('https://i.ibb.co/Y3yqfkm/contain1.png');
+    background-size: cover;
+    background-position: center;
+}
+
+#two{
+    width: 1300px;
+    height: 450px;
+    border: 1px solid white;
+    background-color: #E6EAEE;
+    margin-top: 39px;
+}
+
+.img-2{
+    width: 600px;
+    height: 400px;
+    background-image: url('https://i.ibb.co/VjhNWQS/Screenshot-2023-04-02-222811.png');
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.container1-text{
+    font-family: 'Solway', serif;
+    font-size: 36px;
+    color: white;
+    width: 388px;
+    position: relative;
+    top: 126px;
+    left: 45px;
+}
+
+#realEstate{
+    font-family: 'Solway', serif;
+    color: #FAFF00;
+    font-size: 38px;
+}
+
+.who{
+    font-size: 30px;
+    font-weight: 600;
+    position: relative;
+    bottom: 371px;
+    left: 658px;
+}
+
+.who-description {
+    font-weight: 400;
+    position: relative;
+    bottom: 327px;
+    width: 602px;
+    left: 658px;
+    font-size: 14px;
+    text-align: justify;
+}
+
+.next{
+    position: relative;
+    left: 685px;
+    margin-top: 30px;
+}
+
+.our-offerings{
+    font-size: 30px;
+}
+
+.rect{
+    width: 200px;
+    height: 5px;
+    background-color: black ;
+    border-radius: 7px;
+}
+
+.textt{
+    position: relative;
+    right: 235px;
+    top: 22px;
+    font-weight: 400;
+}
+
+.textt-span{
+    color : #002550;
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 10,
+    'wght' 300,
+    'GRAD' -25,
+    'opsz' 24
+}
+
+.arrow{
+    position: relative;
+    top: 5px;
+}
+
+.contact-now{
+    position: relative;
+    bottom: 228px;
+    left: 93px;
+    
+    height: 45px;
+    width: 200px;
+    
+    padding-bottom: 4px;
+    
+    border-radius: 5px;
+    
+    border: 1px solid black;
+}
+
+.grey-heading{
+    width: 375px;
+    height: 90px;
+    background-color: #F2F4F6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.num{
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    border-radius: 20px;
+    margin-right: 13px;
+}
+
+.grey-heading-text{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.num span{
+    position: relative;
+    left: 12px;
+    top: 6px;
+}
+
+.card-main{
+    width: 375px;
+    height: 550px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    margin-top: 37px;
+}
+
+.card-main .price{
+    position: relative;
+    top: 29px;
+    left: 70px;
+    color: #01244A;
+}
+
+.card-img img{
+    border-radius: 10px;
+    width: 325px;
+    margin: auto;
+    position: relative;
+    top: 25px;
+}
+
+.card1{
+    position: relative;
+    left: 110px;
+}
+
+.heading-texttt{
+    font-size: 26px;
+    color : #002550;
+    margin-top: 57px;
+    margin-left: 25px;
+}
+
+.texttt{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: justify;
+    margin-top: 12px;
+    margin-left: 24px;
+    margin-right: 26px;
+}
+
+.contact-us{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    color:#002550;
+    position: relative;
+    left: 23px;
+    top: 31px;
+    width: 150px;
+}
+
+.cards{
+    display: flex;
+}
+
+.card2{
+    position: relative;
+    left: 193px;
+}
+
+.card3{
+    position: relative;
+    left: 288px;
+}
+
+.card2 .grey-heading{
+    background: #CCD3DC;
+    border-bottom: 5px solid #000000;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+.card2 .grey-heading-text{
+    width: 157px;
+}
+
+.our-team-members{
+    font-size: 30px;
+    position: relative;
+    right: 36px;
+}
+
+.rect2{
+    width: 289px;
+    height: 5px;
+    background-color: black ;
+    border-radius: 7px;
+    position: relative;
+    right: 36px;
+}
+
+.card4{
+    position: relative;
+    left: 110px;
+}
+
+.card4 .price{
+    position: relative;
+    top: 2px;
+    left: 268px;
+}
+.card5 .price{
+    position: relative;
+    top: 2px;
+    left: 268px;
+}
+.card6 .price{
+    position: relative;
+    top: 2px;
+    left: 268px;
+}
+
+.card5{
+    position: relative;
+    left: 193px;
+}
+
+.card6{
+    position: relative;
+    left: 288px;
+}
+
+.team-head{
+    color: #000000;
+}
+
+.blogs{
+    background-color: #F2F4F6;
+}
+
+.our-blogs{
+    font-size: 30px;
+    position: relative;
+    left: 55px;
+}
+
+.rect3{
+    width: 92px;
+    height: 5px;
+    background-color: black ;
+    border-radius: 7px;
+    position: relative;
+    left: 49px;
+}
+
+.card7{
+    position: relative;
+    left: 110px;
+}
+
+.card8{
+    position: relative;
+    left: 193px;
+}
+
+.card9{
+    position: relative;
+    left: 288px;
+}
+
+.card-blog-text{
+    position: relative;
+    top: 57px;
+    left: 28px;
+}
+
+.blog .material-symbols-outlined{
+    position: relative;
+    top: 68px;
+    left: 24px;
+}
+
+.blog .date{
+    position: relative;
+    top: 62px;
+    left: 35px;
+}
+
+.blog .admin{
+    position: relative;
+    top: 62px;
+    left: 165px;
+}
+
+.card7 .heading-texttt{
+    position: relative;
+    top: 28px;
+    font-size: 24px;
+}
+
+.card7 .card-main{
+    height: 632px;
+}
+
+.card7 .texttt{
+    font-size: 14px;
+    position: relative;
+    top: 30px;
+}
+
+.card7 .contact-us{
+    position: relative;
+    top: 48px;
+}
+
+.card8 .heading-texttt{
+    position: relative;
+    top: 28px;
+    font-size: 24px;
+}
+
+.card8 .card-main{
+    height: 632px;
+}
+
+.card8 .texttt{
+    font-size: 14px;
+    position: relative;
+    top: 30px;
+}
+
+.card8 .contact-us{
+    position: relative;
+    top: 48px;
+}
+
+.card9 .heading-texttt{
+    position: relative;
+    top: 28px;
+    font-size: 24px;
+}
+
+.card9 .card-main{
+    height: 632px;
+}
+
+.card9 .texttt{
+    font-size: 14px;
+    position: relative;
+    top: 30px;
+}
+
+.card9 .contact-us{
+    position: relative;
+    top: 48px;
+}
+
+.blogs{
+    padding-bottom: 52px;
+}
+
+#contact-form{
+    width: 1300px;
+    height: 550px;
+    margin-top: 52px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.07);
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+.contact-heading{
+    font-size: 28px;
+    position: relative;
+    top: 78px;
+    left: 95px;
+}
+
+.contact-contact-us{
+    position: relative;
+    top: 115px;
+    left: 96px;
+    font-size: 20px;
+}
+
+.allInputs{
+    box-sizing: border-box;
+    padding: 8px 80px 8px 24px;
+    isolation: isolate;
+    background: #FFFFFF;
+    border: 2px solid #888888;
+    border-radius: 4px;
+}
+
+#fullName{
+    position: relative;
+    top: 137px;
+    left: 95px;
+}
+
+#email{
+    position: relative;
+    top: 137px;
+    left: 131px;
+}
+
+#phone{
+    position: relative;
+    top: 224px;
+    right: 510px;
+    padding-left: 74px;
+    max-width: 306px;
+}
+
+#country{
+    position: relative;
+    top: 224px;
+    right: 477px;
+}
+
+#stages{
+    position: relative;
+    top: 261px;
+    left: 96px;
+    font-size: 12px;
+    width: 304px;
+    height: 46px;
+    padding-right: 24px;
+    padding-left: 13px;
+}
+
+.fullName-span{
+    font-size: 11px;
+    background-color: white;
+    position: relative;
+    top: 71px;
+    right: 190px;
+    padding: 0px 4px;
+}
+
+.email-span{
+    font-size: 11px;
+    background-color: white;
+    position: relative;
+    top: 71px;
+    left: 90px;
+    padding: 0px 4px;
+}
+
+.country-span{
+    font-size: 11px;
+    background-color: white;
+    position: relative;
+    top: 157px;
+    left: 10px;
+    padding: 0px 4px;
+}
+
+.phone-span{
+    font-size: 11px;
+    background-color: white;
+    position: relative;
+    top: 157px;
+    right: 383px;
+    padding: 0px 4px;
+}
+
+.stages-span{
+    font-size: 11px;
+    background-color: white;
+    position: relative;
+    top: 239px;
+    right: 472px;
+    padding: 0px 4px;
+}
+
+.india-img{
+    width: 56px;
+    height: 24px;
+    position: relative;
+    top: 144px;
+    left: 104px;
+}
+
+.stages-arrow{
+    position: relative;
+    top: 199px;
+    left: 366px;
+}
+
+.country-arrow{
+    position: relative;
+    top: 118px;
+    left: 683px;
+}
+
+.contact-submit{
+    width: 306px;
+    height: 44px;
+    background-color: #01244A;
+    position: relative;
+    top: 271px;
+    left: 49px;
+    color: white;
+    border-radius: 4px;
+}
+
+.last-img{
+    width: 447px;
+    height: 390px;
+    position: relative;
+    bottom: 120px;
+    left: 789px;
+}
+
+.footer{
+    width: 100vw;
+    height: auto;
+    background-color: #002550;
+    /* max-height: 200px; */
+}
+
+.footer-logo{
+    width: 170px;
+    height: auto;
+    margin-left: 100px;
+    position: relative;
+    top: 61px;
+}
+
+.copyright{
+    margin-left: 129px;
+    position: relative;
+    top: 344px;
+}
+
+.company{
+    position: relative;
+    left: 530px;
+    bottom: 238px;
+}
+.company-list{
+    position: relative;
+    left: 534px;
+    bottom: 217px;
+    max-width: 122px;
+}
+.company-element{
+    margin: 20px 0px;
+}
+.useful-element{
+    margin: 20px 0px;
+}
+
+.useful-link{
+    position: relative;
+    bottom: 88px;
+    left: 856px;
+}
+
+.useful-list{
+    position: relative;
+    bottom: 64px;
+    left: 863px;
+}
+
+.maill{
+    position: relative;
+    left: 1257px;
+    bottom: 451px;
+}
+.email{
+    position: relative;
+    left: 1275px;
+    bottom: 465px;
+}
+.email-text{
+    position: relative;
+    left: 1228px;
+    bottom: 442px;
+    font-size: 13px;
+}
+
+.phone{
+    position: relative;
+    left: 1031px;
+    bottom: 377px;
+}
+.phonee{
+    position: relative;
+    left: 1049px;
+    bottom: 400px;
+}
+.phone-num{
+    position: relative;
+    left: 995px;
+    bottom: 373px;
+    font-size: 13px;
+}
+
+.linkedin-logo{
+    width: 19px;
+    height: 19px;
+    position: relative;
+    bottom: 96px;
+    left: 1000px;
+}
+
+.facebook-logo{
+    width: 19px;
+    height: 19px;
+    position: relative;
+    bottom: 115px;
+    left: 1119px;
+}
+.twitter-logo{
+    width: 19px;
+    height: 19px;
+    position: relative;
+    bottom: 134px;
+    left: 1249px;
+}
+.instagram-logo{
+    width: 19px;
+    height: 19px;
+    position: relative;
+    bottom: 152px;
+    left: 1365px;
+}
+
+.linkedin{
+    position: relative;
+    bottom: 174px;
+    left: 1023px;
+}
+.facebook{
+    position: relative;
+    bottom: 174px;
+    left: 1076px;
+}
+.twitter{
+    position: relative;
+    bottom: 174px;
+    left: 1132px;
+}
+.instagram{
+    position: relative;
+    bottom: 174px;
+    left: 1193px;
+}
